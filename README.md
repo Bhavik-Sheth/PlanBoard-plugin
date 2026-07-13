@@ -40,12 +40,13 @@ CLAUDE.md                   # Generated at project root by /finalize
 
 **Step 2 — Install the plugin:**
 ```
-/plugin install planboard@Bhavik-Sheth/PlanBoard-plugin
+/plugin install planboard@planboard
 ```
+(`planboard` after the `@` is the marketplace name, not the repo path — it comes from the `name` field in this repo's `marketplace.json`.)
 
 **To update after the author pushes changes:**
 ```
-/plugin marketplace update Bhavik-Sheth/PlanBoard-plugin
+/plugin marketplace update planboard
 /reload-plugins
 ```
 
