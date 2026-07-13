@@ -68,6 +68,37 @@ codex plugin marketplace upgrade planboard
 
 ---
 
+## Ideal user journey
+
+1. Start with a rough idea—not a finished specification:
+
+   ```text
+   /planboard "A shared household app for tracking chores and supplies"
+   ```
+
+2. PlanBoard turns the idea into an initial structured plan, then grills the unclear decisions one at a time. It researches facts available in the codebase, explains why each decision matters, and gives a recommended answer; you make the final decision.
+
+3. Once you confirm a shared understanding, specialist agents create the product requirements, technical requirements, data schema, architecture decisions, application flow, coding rules, and implementation plan. You review and approve each document before the next one begins.
+
+4. When the plan is complete, run `/finalize`. PlanBoard produces a `CLAUDE.md` and a `PLANNER/` folder containing the approved project context, ready to hand to a coding agent.
+
+
+## How it works
+
+1. `/planboard "<idea>"` structures your idea into `StructuredPlan.md`
+2. A Grill Session interviews you to fill in what's missing (constraints, target users, platform, unknowns)
+3. Specialist agents draft each document in sequence — each one reads only what it needs and writes exactly one file
+4. You review and approve each file before the next one is drafted
+5. When you're satisfied with everything, `/finalize` compiles `CLAUDE.md`
+6. Hand `CLAUDE.md` to your coding agent (Claude Code or any other) — it now has the full project context
+
+### On-demand features
+- `/consistency` — run anytime to check for cross-file contradictions
+- `/diagram` — run after Schema or TRD changes to refresh the ASCII diagrams
+- Tech stack suggestions — if you answer "I don't know" during the Grill Session, an Opus-powered expert agent gives a specific, justified recommendation
+
+---
+
 ## Commands
 
 ### `/planboard "<your idea>"`
@@ -158,21 +189,6 @@ Reset a file back to pending so it can be rewritten. Asks for confirmation first
 
 ---
 
-## How it works
-
-1. `/planboard "<idea>"` structures your idea into `StructuredPlan.md`
-2. A Grill Session interviews you to fill in what's missing (constraints, target users, platform, unknowns)
-3. Specialist agents draft each document in sequence — each one reads only what it needs and writes exactly one file
-4. You review and approve each file before the next one is drafted
-5. When you're satisfied with everything, `/finalize` compiles `CLAUDE.md`
-6. Hand `CLAUDE.md` to your coding agent (Claude Code or any other) — it now has the full project context
-
-### On-demand features
-- `/consistency` — run anytime to check for cross-file contradictions
-- `/diagram` — run after Schema or TRD changes to refresh the ASCII diagrams
-- Tech stack suggestions — if you answer "I don't know" during the Grill Session, an Opus-powered expert agent gives a specific, justified recommendation
-
----
 
 ## Design principles
 
