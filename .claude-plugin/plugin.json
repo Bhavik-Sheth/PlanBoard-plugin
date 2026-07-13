@@ -4,39 +4,5 @@
   "description": "Turn a rough idea into a complete project specification before writing any code",
   "author": {
     "name": "PlanBoard"
-  },
-  "commands": [
-    {
-      "name": "planboard",
-      "description": "Start or resume a PlanBoard planning session"
-    },
-    {
-      "name": "planboard-ps",
-      "description": "Start a PlanBoard planning session from a Problem Statement and proposed solution"
-    },
-    {
-      "name": "approve",
-      "description": "Approve a PLANNER/ file and continue the planning sequence"
-    },
-    {
-      "name": "status",
-      "description": "Show the current status of all PLANNER/ files"
-    },
-    {
-      "name": "consistency",
-      "description": "Run a cross-file consistency check across all PLANNER/ documents"
-    },
-    {
-      "name": "finalize",
-      "description": "Compile all approved PLANNER/ files into CLAUDE.md"
-    },
-    {
-      "name": "diagram",
-      "description": "Regenerate architecture diagrams in ARCHITECTURE_DIAGRAMS/"
-    },
-    {
-      "name": "reset",
-      "description": "Reset a PLANNER/ file back to pending so it can be rewritten"
-    }
-  ]
+  }
 }
