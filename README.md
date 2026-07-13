@@ -60,6 +60,13 @@ codex plugin marketplace add Bhavik-Sheth/PlanBoard-plugin --ref main
 codex plugin add planboard@planboard
 ```
 
+In Codex, use the skills directly instead of Claude Code slash commands:
+
+```text
+$planboard
+$planboard-ps
+```
+
 To receive the latest published version later:
 
 ```bash
