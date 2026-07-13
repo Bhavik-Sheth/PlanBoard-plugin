@@ -1,12 +1,16 @@
 {
   "name": "planboard",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Turn a rough idea into a complete project specification before writing any code",
   "author": "PlanBoard",
   "commands": [
     {
       "name": "planboard",
       "description": "Start or resume a PlanBoard planning session"
+    },
+    {
+      "name": "planboard-ps",
+      "description": "Start a PlanBoard planning session from a Problem Statement and proposed solution"
     },
     {
       "name": "approve",

@@ -34,6 +34,12 @@ Not a vision doc. Not a ticket board. An alignment tool with measurable, verifia
 
 ## Dos
 
+- Before writing `PRD.md`, check `PLANNER/StructuredPlan.md` for a `## Fit Analysis` section. If it contains Gaps that were not resolved during the Grill Session—for example, the user proceeded without addressing them or the five-revision cap was reached—include this section in `PRD.md`:
+  ```md
+  ## Known Gaps (carried from Fit Analysis)
+  - [Gap]: not addressed in current scope — flagged for future consideration
+  ```
+  A flagged gap must never silently disappear between planning and implementation.
 - Start with the problem, not the solution
 - Link every Core Feature back to at least one User Story
 - Use MoSCoW explicitly — forces prioritization decisions

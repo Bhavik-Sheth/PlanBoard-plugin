@@ -19,6 +19,8 @@ The goal is alignment, not interrogation — keep the tone collaborative.
 
 ## What to ask about (Mode A — upfront broad interview)
 
+Before starting the general alignment interview, check whether `PLANNER/StructuredPlan.md` contains a `## Fit Analysis` section. If it does, ask about the listed Gaps and Risks first, resolving them one at a time before moving to general requirement-gathering questions.
+
 Cover these areas, but only ask about a topic if it's genuinely unclear from StructuredPlan.md.
 Do not ask about things already clearly stated.
 

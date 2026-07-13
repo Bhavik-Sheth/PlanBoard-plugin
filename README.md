@@ -114,6 +114,13 @@ If a `PLANNER/` folder already exists, automatically resumes from where you left
 
 ---
 
+### `/planboard-ps`
+Start a new planning session from an existing Problem Statement and proposed solution.
+
+PlanBoard collects each input, analyzes where the proposed solution does not fully meet the problem, and lets you revise the solution or proceed with the documented gaps before the normal Grill Session begins.
+
+---
+
 ### `/approve <filename>`
 Approve a specific file and continue the sequence.
 
