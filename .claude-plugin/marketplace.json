@@ -1,0 +1,14 @@
+{
+  "name": "planboard",
+  "description": "A curated marketplace for the PlanBoard planning plugin",
+  "plugins": [
+    {
+      "name": "planboard",
+      "version": "1.0.0",
+      "description": "Turn a rough idea into a complete project specification before writing any code",
+      "author": "PlanBoard",
+      "path": ".",
+      "tags": ["planning", "productivity", "project-management", "spec", "documentation"]
+    }
+  ]
+}

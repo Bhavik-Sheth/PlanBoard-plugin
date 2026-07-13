@@ -1,0 +1,22 @@
+{
+  "name": "planboard",
+  "version": "1.0.0",
+  "description": "Turn a rough idea into a complete project specification before writing any code.",
+  "author": {
+    "name": "PlanBoard"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "PlanBoard",
+    "shortDescription": "Create a complete, reviewable project plan before coding.",
+    "longDescription": "PlanBoard turns a rough idea into an approved product, technical, data, and implementation plan through a structured, human-in-the-loop workflow.",
+    "developerName": "PlanBoard",
+    "category": "Productivity",
+    "capabilities": ["Interactive", "Write"],
+    "defaultPrompt": [
+      "Plan a new project idea with PlanBoard.",
+      "Turn this idea into an approved implementation plan."
+    ],
+    "brandColor": "#2563EB"
+  }
+}
