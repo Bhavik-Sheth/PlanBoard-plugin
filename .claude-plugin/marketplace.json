@@ -1,6 +1,9 @@
 {
   "name": "planboard",
   "description": "A curated marketplace for the PlanBoard planning plugin",
+  "owner": {
+    "name": "Bhavik Sheth"
+  },
   "plugins": [
     {
       "name": "planboard",
