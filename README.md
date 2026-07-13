@@ -31,6 +31,8 @@ CLAUDE.md                   # Generated at project root by /finalize
 
 ## Installation
 
+### Claude Code
+
 **Step 1 — Add the GitHub repo as a marketplace:**
 ```
 /plugin marketplace add yourusername/planboard-plugin
@@ -47,6 +49,21 @@ Replace `yourusername/planboard-plugin` with your actual GitHub `owner/repo` pat
 ```
 /plugin marketplace update yourusername/planboard-plugin
 /reload-plugins
+```
+
+### Codex
+
+Anyone with access to this GitHub repository can add it as a Codex marketplace and install PlanBoard:
+
+```bash
+codex plugin marketplace add Bhavik-Sheth/PlanBoard-plugin --ref main
+codex plugin add planboard@planboard
+```
+
+To receive the latest published version later:
+
+```bash
+codex plugin marketplace upgrade planboard
 ```
 
 ---
