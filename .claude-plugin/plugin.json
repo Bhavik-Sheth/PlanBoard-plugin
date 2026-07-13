@@ -2,7 +2,9 @@
   "name": "planboard",
   "version": "1.2.0",
   "description": "Turn a rough idea into a complete project specification before writing any code",
-  "author": "PlanBoard",
+  "author": {
+    "name": "PlanBoard"
+  },
   "commands": [
     {
       "name": "planboard",
