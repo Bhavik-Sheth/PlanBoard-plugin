@@ -35,19 +35,17 @@ CLAUDE.md                   # Generated at project root by /finalize
 
 **Step 1 — Add the GitHub repo as a marketplace:**
 ```
-/plugin marketplace add yourusername/planboard-plugin
+/plugin marketplace add Bhavik-Sheth/PlanBoard-plugin
 ```
 
 **Step 2 — Install the plugin:**
 ```
-/plugin install planboard@yourusername/planboard-plugin
+/plugin install planboard@Bhavik-Sheth/PlanBoard-plugin
 ```
-
-Replace `yourusername/planboard-plugin` with your actual GitHub `owner/repo` path.
 
 **To update after the author pushes changes:**
 ```
-/plugin marketplace update yourusername/planboard-plugin
+/plugin marketplace update Bhavik-Sheth/PlanBoard-plugin
 /reload-plugins
 ```
 
